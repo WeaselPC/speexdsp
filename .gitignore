@@ -35,3 +35,5 @@ speexdsp.pc
 stamp-*
 patches
 /m4
+bin
+bin-int

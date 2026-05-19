@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\speex">
+      <UniqueIdentifier>{5D0F2BA6-C9CF-A6DC-920A-F059FE89EBB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libspeexdsp">
+      <UniqueIdentifier>{48768C30-B42B-0526-3D20-FFFCA9D4FB29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{98D2A310-04E7-CBC1-CD68-6F21393CC8F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\speex\speex_buffer.h">
+      <Filter>include\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="include\speex\speex_echo.h">
+      <Filter>include\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="include\speex\speex_jitter.h">
+      <Filter>include\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="include\speex\speex_preprocess.h">
+      <Filter>include\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="include\speex\speex_resampler.h">
+      <Filter>include\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="include\speex\speexdsp_types.h">
+      <Filter>include\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="libspeexdsp\_kiss_fft_guts.h">
+      <Filter>libspeexdsp</Filter>
+    </ClInclude>
+    <ClInclude Include="libspeexdsp\arch.h">
+      <Filter>libspeexdsp</Filter>
+    </ClInclude>
+    <ClInclude Include="libspeexdsp\fftwrap.h">
+      <Filter>libspeexdsp</Filter>
+    </ClInclude>
+    <ClInclude Include="libspeexdsp\filterbank.h">
+      <Filter>libspeexdsp</Filter>
+    </ClInclude>
+    <ClInclude Include="libspeexdsp\math_approx.h">
+      <Filter>libspeexdsp</Filter>
+    </ClInclude>
+    <ClInclude Include="libspeexdsp\os_support.h">
+      <Filter>libspeexdsp</Filter>
+    </ClInclude>
+    <ClInclude Include="libspeexdsp\pseudofloat.h">
+      <Filter>libspeexdsp</Filter>
+    </ClInclude>
+    <ClInclude Include="libspeexdsp\smallft.h">
+      <Filter>libspeexdsp</Filter>
+    </ClInclude>
+    <ClInclude Include="libspeexdsp\stack_alloc.h">
+      <Filter>libspeexdsp</Filter>
+    </ClInclude>
+    <ClInclude Include="libspeexdsp\vorbis_psy.h">
+      <Filter>libspeexdsp</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\config.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libspeexdsp\fftwrap.c">
+      <Filter>libspeexdsp</Filter>
+    </ClCompile>
+    <ClCompile Include="libspeexdsp\filterbank.c">
+      <Filter>libspeexdsp</Filter>
+    </ClCompile>
+    <ClCompile Include="libspeexdsp\preprocess.c">
+      <Filter>libspeexdsp</Filter>
+    </ClCompile>
+    <ClCompile Include="libspeexdsp\smallft.c">
+      <Filter>libspeexdsp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
