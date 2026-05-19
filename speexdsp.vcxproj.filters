@@ -74,6 +74,9 @@
     <ClCompile Include="libspeexdsp\filterbank.c">
       <Filter>libspeexdsp</Filter>
     </ClCompile>
+    <ClCompile Include="libspeexdsp\mdf.c">
+      <Filter>libspeexdsp</Filter>
+    </ClCompile>
     <ClCompile Include="libspeexdsp\preprocess.c">
       <Filter>libspeexdsp</Filter>
     </ClCompile>

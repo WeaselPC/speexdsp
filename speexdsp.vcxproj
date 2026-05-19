@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="libspeexdsp\fftwrap.c" />
     <ClCompile Include="libspeexdsp\filterbank.c" />
+    <ClCompile Include="libspeexdsp\mdf.c" />
     <ClCompile Include="libspeexdsp\preprocess.c" />
     <ClCompile Include="libspeexdsp\smallft.c" />
   </ItemGroup>

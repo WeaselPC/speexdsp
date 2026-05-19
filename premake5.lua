@@ -14,6 +14,7 @@ project "speexdsp"
         "libspeexdsp/fftwrap.c",
         "libspeexdsp/smallft.c",
         "libspeexdsp/filterbank.c",
+        "libspeexdsp/mdf.c",
         "libspeexdsp/arch.h",
         "libspeexdsp/_kiss_fft_guts.h",
         "libspeexdsp/fftwrap.h",
