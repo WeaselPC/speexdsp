@@ -30,6 +30,9 @@
     <ClInclude Include="include\speex\speex_resampler.h">
       <Filter>include\speex</Filter>
     </ClInclude>
+    <ClInclude Include="include\speex\speexdsp_config_types.h">
+      <Filter>include\speex</Filter>
+    </ClInclude>
     <ClInclude Include="include\speex\speexdsp_types.h">
       <Filter>include\speex</Filter>
     </ClInclude>
